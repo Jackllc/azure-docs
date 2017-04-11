@@ -74,6 +74,9 @@ As part of this procedure, you are required to upload metadata to Box.com.
    
    ![Configure single sign-on](./media/active-directory-saas-box-tutorial/IC769539.png "Configure single sign-on")
 3. On the **Configure App URL** page, in the **Box Tenant URL** textbox, type your Box tenant URL (e.g.: https://<mydomainname>.box.com), and then click **Next**.
+IF configuring in the new Azure portal, place "https://sso.services.box.net/sp/ACS.saml2" into the 'Identifier' field
+![Configure single sign-on](./media/active-directory-aadconnect-user-interface/identifier.png "Configure single sign-on")
+
    
   ![Configure app URL](./media/active-directory-saas-box-tutorial/IC669826.png "Configure app URL")
 4. On the **Configure single sign-on at Box** page, to download your metadata, click **Download metadata**, and then the data file locally on your computer.
